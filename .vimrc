@@ -10,4 +10,4 @@ filetype plugin on
 au FileType skh,xhtml,xml so ~/.vim/ftplugin/html_autoclosetag.vim
 call pathogen#infect()
 map <C-D> :cal SetSyn("htmldjango")<Enter>
-map <c-f> :call JsBeautify()<cr>
+let g:pep8_map='<F6>'
