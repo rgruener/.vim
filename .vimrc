@@ -11,11 +11,3 @@ au FileType skh,xhtml,xml so ~/.vim/ftplugin/html_autoclosetag.vim
 call pathogen#infect()
 map <C-D> :cal SetSyn("htmldjango")<Enter>
 let g:pep8_map='<F6>'
-
-syntax enable
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-colorscheme solarized
